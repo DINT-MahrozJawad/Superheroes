@@ -12,7 +12,7 @@
             <ColumnDefinition Width="*"></ColumnDefinition>
         </Grid.ColumnDefinitions>
 
-        <Image Stretch="Fill" Source="C:\Users\alumno\Desktop\descarga.jpg"  Height="300"></Image>
+        <Image Stretch="Fill" Source="C:\Users\alumno\Desktop\descarga.jpg"  Height="300" Margin="0,0,0,119"></Image>
         
     </Grid>
     
