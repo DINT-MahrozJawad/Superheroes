@@ -1,14 +1,15 @@
 ﻿using System.ComponentModel;
-
-class Configuracion : INotifyPropertyChanged
+namespace Superheroes
 {
-    public string AjusteImagen { get; set; }
-    public string Fondo { get; set; }
-
-    public Configuracion()
+    class Configuracion
     {
-    }
+        public string AjusteImagen { get; set; }
+        public string Fondo { get; set; }
 
-    public event PropertyChangedEventHandler PropertyChanged;
+        public Configuracion()
+        {
+        }
+    }
 }
+
 
